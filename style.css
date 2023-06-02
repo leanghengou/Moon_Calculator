@@ -1,0 +1,167 @@
+body{
+    background-color: black;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.all-container{
+    height: 100vh;
+    display: flex;
+}
+.cal-full-container{
+    width: 660px;
+    height: 750px;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, #FFFFFF 0%, #ECECEC 100%);
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.35);
+border:10px solid #BCBCBCB2;
+}
+
+.resultScreen{
+    width: 92%;
+    background: linear-gradient(180deg, #0D0029 0%, #0d0d0d 100%);
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.buttonGroup button{
+    /* padding: 25px 50px; */
+    margin: 10px;
+    width:100px;
+    height: 70px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 30px;
+    font-weight: 700;
+    color: #3A3A3A;
+    background: linear-gradient(180deg, #F3F3F3 0%, #E0D9D7 100%);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    border: 3px solid #CCCCCC;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.buttonGroup button:hover{
+  filter: brightness(0.94);
+  /* box-shadow: 3px 6px 15px rgba(0, 0, 0, 0.35); */
+}
+
+.resultButton button {
+    padding: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 30px;
+    font-weight: 700;
+    color: #3A3A3A;
+    background: linear-gradient(180deg, #F3F3F3 0%, #E0D9D7 100%);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    border: 3px solid #CCCCCC;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.buttonContainer-80 {
+    display: flex;
+  }
+
+  .buttonGroup {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .calButton {
+    width: 95%;
+  }
+
+  .row-container-80 {
+    width: 80%;
+  }
+
+
+  .resultButton button {
+    padding: 20px;
+    width: 81%;
+    height: 90%;
+    margin-left: 15px;
+
+}
+
+  .resultButton {
+    width: 20%;
+    display: flex;
+    align-items: center;
+  }
+
+  .row-container-80 {
+    width: 80%;
+  }
+
+  .zero-button {
+    width: 45% !important;
+  }
+ .resultScreen{
+    display: flex;
+    flex-direction: column;
+  }
+
+ 
+  .calNum{
+    color: white;
+    padding: 10px 20px;
+    height: 70%;
+  }
+ .calResult{
+    color: white;
+    height: 30%;
+    text-align: right;
+    font-size: 50px;
+    font-weight: 800;
+  }
+  .cal-insert{
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    width: 100%;
+    height: 70%;
+  }
+
+  .plus-button {
+      background: linear-gradient(180deg, #135DCB 0%, #07537D 100%) !important;
+      color: white !important;
+      border: 5px solid #215A9B !important;
+    }
+
+    .minus-button {
+      background: linear-gradient(180deg, #FF6442 0%, #D52D2D 100%) !important;
+      color: white !important;
+      border: 5px solid #D52D2D !important;
+    }
+
+    .multiply-button {
+      background: linear-gradient(180deg, #071E57 0%, #4910C2 100%) !important;
+      color: white !important;
+      border: 5px solid #16047b !important;
+    }
+
+    .divide-button {
+      background: linear-gradient(180deg, #303030 0%, #565656 100%) !important;
+      color: white !important;
+      border: 5px solid #3c3b3b !important
+    }
+
+    .reset-button{
+      background: linear-gradient(180deg, #FF922E 0%, #BE6C20 100%) !important;
+      color: white !important;
+      border: 5px solid #DA7A22 !important;
+    }
+    .percentage-button{
+      background: linear-gradient(180deg, #2DFF81 0%, #12804B 100%) !important;
+      color: white !important;
+      border: 5px solid #00832C !important;
+    }
+
+
+ 
+  
